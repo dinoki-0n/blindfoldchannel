@@ -1,0 +1,17 @@
+
+img{
+max-width: 100%;
+}
+
+  .flex-o {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: center;
+  }
+
+  body {
+font: normal normal 15px Poppins;
+  }
