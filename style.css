@@ -24,6 +24,6 @@ background: #b80000;
 img{
 
     -webkit-user-drag: none;
-    object-fit: fill;
+    object-fit: contain;
 
 }
