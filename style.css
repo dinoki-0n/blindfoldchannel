@@ -1,8 +1,6 @@
 body {
     user-select: none;
-    display: flex;
-    justify-content: center;
-    margin: auto 8px 80px;
+    margin: 10px 15px 10px;
     }
 
     button{
@@ -22,8 +20,10 @@ background: #b80000;
     }
 
 img{
-
     -webkit-user-drag: none;
     object-fit: contain;
+}
 
+link{
+display:block;
 }
