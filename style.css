@@ -29,3 +29,16 @@ img{
 link{
 display: block;
 }
+
+ a.door{
+margin-top: 10px;
+color: #ffffff;
+font-family: monospace;
+font-size: medium;
+text-decoration: underline;
+            }
+
+             a.door:hover{
+color: #fafafa;
+text-decoration: none;
+            }
