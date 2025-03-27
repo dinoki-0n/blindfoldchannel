@@ -32,13 +32,13 @@ display: block;
 
  a.door{
 margin-top: 10px;
-color: #ffffff;
+color: #000000;
 font-family: monospace;
 font-size: medium;
 text-decoration: underline;
             }
 
              a.door:hover{
-color: #fafafa;
+color: #000000;
 text-decoration: none;
             }
