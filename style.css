@@ -62,7 +62,7 @@ cursor: pointer;
     .card{
 color: white;
 background: #b80000;
-padding: 30px 15px;
+padding: 30px 15px 0px;
 width: 55%;
     }
 
