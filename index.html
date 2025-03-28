@@ -88,6 +88,20 @@ margin-top: 10px;
     <a class="door" href="http://bydinoki.com" target="_blank">#BYDINOKI</a>
     </div></div>
     </div>
+    <br/><br/>
+    
+    <p>© <span id="fechaActual"></span> #BYDINOKI and Company.</p>
   
 </body>
+    <script>
+         // Obtener la fecha actual
+    var fecha = new Date();
+
+    // Formatear la fecha (puedes personalizar el formato)
+    var opciones = { year: 'numeric'};
+    var fechaFormateada = fecha.toLocaleDateString('es-ES', opciones);
+
+    // Mostrar la fecha en el elemento span
+    document.getElementById('fechaActual').textContent = fechaFormateada;
+    </script>
 </html>
