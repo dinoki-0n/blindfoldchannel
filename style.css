@@ -62,7 +62,7 @@ cursor: pointer;
     .card{
 color: white;
 background: #b80000;
-padding: 30px 15px 0px;
+padding: 30px 15px 8px;
 width: 55%;
     }
 
@@ -103,6 +103,10 @@ text-decoration: none;
    .flexio{
    padding: 15px;
    }
+
+    .card{
+   padding: 30px 15px 22px;
+    }
     
 }
 
