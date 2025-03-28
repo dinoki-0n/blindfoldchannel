@@ -99,8 +99,10 @@ text-decoration: none;
 
 
 @media screen and (max-width: 480px) {
- .flexio{
-padding: 15px;
- }
+    
+   .flexio{
+   padding: 15px;
+   }
+    
 }
 
