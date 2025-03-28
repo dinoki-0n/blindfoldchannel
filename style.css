@@ -4,6 +4,20 @@
     margin: 24px;
     }
 
+   br{
+
+   user-select: none;
+
+   }
+
+  .padin-red {
+
+  margin: 0 15px;
+  user-select: none;
+
+  }
+
+
     iframe{
     user-select: none;
     }
@@ -32,9 +46,32 @@
     padding: 0 55px;
     }
 
+ .qn1 {
+     width: 32px;
+    height: 32px;
+opacity: 1;
+object-fit: contain;
+  }
+  
+  .qn1:hover {
+        width: 25px;
+    height: 25px;
+opacity: 0.5;
+
+  }
+
     button{
 cursor: pointer;
     }
+
+.flex-o {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: center;
+}
 
 .myBton {
   box-shadow: 0px 0px 0px 2px #b80000;
