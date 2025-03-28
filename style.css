@@ -47,15 +47,13 @@
     }
 
  .qn1 {
-     width: 32px;
-    height: 32px;
-opacity: 1;
-object-fit: contain;
+     width: 25px;
+     height: 25px;
+     opacity: 1;
+     object-fit: contain;
   }
   
   .qn1:hover {
-        width: 25px;
-    height: 25px;
 opacity: 0.5;
 
   }
@@ -69,7 +67,7 @@ cursor: pointer;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-content: stretch;
+  justify-content: center;
   align-items: center;
 }
 
@@ -82,7 +80,6 @@ cursor: pointer;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   font-size: 18px; /* Increase font size */
-  transition: 0.3s;
 }
 
 .myBton:hover {
