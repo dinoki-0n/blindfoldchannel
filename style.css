@@ -20,7 +20,8 @@ cursor: pointer;
     .card{
 color: white;
 background: #b80000;
-width: 60%;
+padding: 10px;
+width: 55%;
     }
 
     .pos{
