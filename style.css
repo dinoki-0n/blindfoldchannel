@@ -4,7 +4,7 @@
     margin: 10px;
     }
 
-iframe{
+    iframe{
     user-select: none;
     }
 
@@ -54,7 +54,7 @@ font-size: 14px;
 text-decoration: underline;
             }
 
-             a.door:hover{
+a.door:hover{
 color: #000000;
 text-decoration: none;
             }
