@@ -1,7 +1,12 @@
 body{
     user-select: none;
+    font-family: poppins;
     margin: 8px;
     }
+
+.simple-center{
+text-align: center;
+}
 
     button{
 cursor: pointer;
