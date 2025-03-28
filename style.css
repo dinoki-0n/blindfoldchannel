@@ -4,6 +4,10 @@
     margin: 10px;
     }
 
+iframe{
+    user-select: none;
+    }
+
     h1{
     font-weight: 900;
     margin: 1px;
