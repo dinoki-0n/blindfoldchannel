@@ -1,7 +1,7 @@
     body{
     user-select: none;
     font-family: poppins;
-    margin: 8px;
+    margin: 10px;
     }
 
     h1{
@@ -20,7 +20,7 @@ cursor: pointer;
     .card{
 color: white;
 background: #b80000;
-padding: 10px;
+padding: 30px 15px;
 width: 55%;
     }
 
