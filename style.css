@@ -36,6 +36,10 @@
 cursor: pointer;
     }
 
+   .piep{
+   text-align: center;
+   }
+
     .card{
 color: white;
 background: #b80000;
