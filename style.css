@@ -73,7 +73,7 @@ cursor: pointer;
 }
 
  .myBton {
-  box-shadow: 0px 0px 0px 2px #b80000;
+  box-shadow: 0px 0px 0px 2px #ffffff;
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: white; /* Set a background color */
