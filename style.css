@@ -60,6 +60,10 @@ opacity: 0.5;
 cursor: pointer;
     }
 
+    a{
+    cursor: pointer;
+    }
+
  .flex-o {
   display: flex;
   flex-direction: row;
