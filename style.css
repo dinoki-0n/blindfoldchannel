@@ -68,6 +68,14 @@ cursor: pointer;
 
     a{
     cursor: pointer;
+    color: #ffffff;
+    text-decoration: underline;
+    }
+
+ a:hover{
+    cursor: pointer;
+    color: #fafafa;
+    text-decoration: none;
     }
 
  .flex-o {
