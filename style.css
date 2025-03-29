@@ -19,7 +19,7 @@
 
   .wrapper {
   display: grid;
-  justify-content: left;
+  justify-content: center;
   grid-template-columns: 200px 200px 200px;
 }
 
