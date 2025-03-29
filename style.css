@@ -17,6 +17,12 @@
 
   }
 
+  .wrapper {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: 200px 200px 200px;
+}
+
     iframe{
     user-select: none;
     }
@@ -143,4 +149,13 @@ text-decoration: none;
     }
     
 }
+
+ @media only screen and (max-width: 600px) {
+
+     
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+     
+  }
 
