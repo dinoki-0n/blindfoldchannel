@@ -5,13 +5,12 @@
     }
 
    br{
-
    user-select: none;
-
    }
 
 button{
   font-family: 'Poppins';
+  text-transform: uppercase;
 }
 
   .padin-red {
