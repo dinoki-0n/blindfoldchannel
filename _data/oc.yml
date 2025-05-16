@@ -32,7 +32,7 @@
   id: 06
   pfp: "/ing/oc/inkko.jpg"
   link: "/characters/inkko/"
-  featured: true
+  featured: false
 
 - name: Hacha
   id: 17
@@ -50,7 +50,7 @@
   id: -1
   pfp: "/ing/oc/x.jpg"
   link: "/characters/x/"
-  featured: false
+  featured: true
 
 - name: Esteicler
   id: -1
