@@ -73,6 +73,7 @@ button{
 }
 
     .iner{
+      pointer-events: none;
       border-radius: 30px;
       object-fit: cover;
       width: 200px;
