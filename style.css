@@ -231,7 +231,9 @@ img{
   height: 12vw;
 }
 
-
+.cl{
+  object-fit: cover;
+}
 
 link{
 display: block;
