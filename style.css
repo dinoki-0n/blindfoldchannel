@@ -232,7 +232,7 @@ img{
 }
 
 .cl{
-object-fit: cover;
+object-fit: contain;
 width: 75%;
 height: 300px;
 margin-top: 0px;
