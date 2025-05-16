@@ -3,7 +3,7 @@
     background: #b80000;
     user-select: none;
     font-family: poppins;
-    margin: 24px;
+    margin: 0 24px;
     }
 
    br{
@@ -15,6 +15,24 @@ button{
   text-transform: uppercase;
 }
 
+.drawer{
+  overflow: hidden;
+}
+
+#lightbox .img{
+  max-width: 100% !important;
+}
+
+.aubrey{
+  text-decoration: none;
+  opacity: 1;
+}
+
+.aubrey:hover{
+  text-decoration: none;
+  opacity: 0.5;
+  }
+  
   .padin-red {
 
   margin: 0 15px;
@@ -28,12 +46,45 @@ button{
   grid-template-columns: 200px 200px 200px;
 }
 
+.pime{
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.details{
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  gap: 10px;
+  text-align: left;
+}
+
+.pdetail{
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 10px;
+  text-align: left;
+  justify-content: left;
+  margin: 0;
+}
+
+.persona{
+  text-align: center;
+}
+
+    .iner{
+      border-radius: 30px;
+      object-fit: cover;
+      width: 200px;
+      height: 200px;
+    }
+
     iframe{
     user-select: none;
     }
 
     h1{
-    font-weight: 900;
+    font-weight: 700;
     margin: 1px;
     }
 
@@ -43,7 +94,7 @@ button{
 
     .login{
     text-align: center;
-    margin: 16px 0;
+    margin-top: 10px;
       }
 
  .flexio{
@@ -72,6 +123,13 @@ opacity: 0.5;
 cursor: pointer;
     }
 
+    hr{
+    border: 0;
+    height: 1px;
+    background: #ffffff;
+    margin: 40px 0;
+    }
+
     a{
     cursor: pointer;
     color: #ffffff;
@@ -90,6 +148,26 @@ cursor: pointer;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.flexm{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 18px;
+
+}
+
+.ha2{
+      display: block;
+    font-size: 1.4em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: 700;
+    unicode-bidi: isolate;
 }
 
  .myBton {
@@ -121,6 +199,10 @@ cursor: pointer;
    text-align: center;
    }
 
+   .quot{
+    margin: 8px 1vh;
+   }
+
     .card{
 color: white;
 background: #b80000;
@@ -142,6 +224,15 @@ img{
     object-fit: contain;
 }
 
+.feature{
+  object-fit: cover;
+  border-radius: 10px;
+  width: 12vw;
+  height: 12vw;
+}
+
+
+
 link{
 display: block;
 }
@@ -159,24 +250,84 @@ color: #000000;
 text-decoration: none;
             }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1180px){
+
+ .flexm{
+  display: block;
+}
+
+.feature{
+  width: 18dvw;
+  height: 18dvw;
+}
+
+  .person{
+    text-align: left;
+  }
+
+  .cm{
+  display: none;
+}
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .quot{
+    margin: 8px 0vh;
+   }
+
+  .card{
+    width: 100%;
+  }
     
    .flexio {
-   padding: 15px !important;
+   padding: 0 15px !important;
    }
 
     .card {
-   padding: 30px 15px 30px !important;
+   padding: 30px 0px 30px !important;
     }
+
+
+.persona{
+  text-align: left;
+}
+
+.pdetail{
+  grid-template-columns: repeat(auto-fill, minmax(200px, 0fr));
+  gap: 10px;
+  text-align: left;
+  justify-content: left;
+  margin: 0;
+}
+
+.feature{
+ width: 200px;
+height: 200px;
+}
     
 }
 
- @media only screen and (max-width: 1200px) {
+ @media only screen and (max-width: 1080px) {
 
      
   .wrapper {
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
-     
+
+  }
+
+  @media screen and (max-width: 380px) {
+    .details{
+display: table;
+    }
+    .ha2{
+      margin: 18px 0;
+    }
+    .cr{
+      display: none;
+    }
   }
 

@@ -5,6 +5,7 @@ title: Blindfold Channel
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome, this is the Blindfold Channel WEB-SITE !
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /
 
 # Build settings
 plugins:

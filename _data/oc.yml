@@ -1,0 +1,71 @@
+- name: Cleiver
+  id: 16
+  pfp: "/ing/oc/cleiver.jpg"
+  link: "/characters/cleiver/"
+  featured: true
+
+- name: Dorien
+  id: 18
+  pfp: "/ing/oc/dorien.jpg"
+  link: "/characters/dorien/"
+  featured: true
+
+- name: Aryentina
+  id: 15
+  pfp: "/ing/oc/aryentina.jpg"
+  link: "/characters/aryentina/"
+  featured: true
+
+- name: Xori
+  id: 10
+  pfp: "/ing/oc/xori.jpg"
+  link: "/characters/xori/"
+  featured: true
+
+- name: Cykan
+  id: 11
+  pfp: "/ing/oc/cykan.jpg"
+  link: "/characters/cykan"
+  featured: true
+
+- name: Inkko
+  id: 06
+  pfp: "/ing/oc/inkko.jpg"
+  link: "/characters/inkko/"
+  featured: true
+
+- name: Hacha
+  id: 17
+  pfp: "/ing/oc/hacha.jpg"
+  link: "/characters/hacha/"
+  featured: false
+
+- name: Hario
+  id: 19
+  pfp: "/ing/oc/hario.jpg"
+  link: "/characters/hario/"
+  featured: false
+
+- name: Xiaro
+  id: -1
+  pfp: "/ing/oc/x.jpg"
+  link: "/characters/x/"
+  featured: false
+
+- name: Esteicler
+  id: -1
+  pfp: "/ing/oc/esteicler.jpg"
+  link: "/characters/esteicler/"
+  featured: false
+
+- name: Panecillo
+  id: -1
+  pfp: "/ing/oc/panecillo.jpg"
+  link: "/characters/panecillo/"
+  featured: false
+
+- name: Dorian Grey
+  id: -1
+  pfp: "/ing/oc/dorian-grey.jpg"
+  link: "/characters/dorian/"
+  featured: false

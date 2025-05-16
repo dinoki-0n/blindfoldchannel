@@ -1,0 +1,25 @@
+---
+layout: default
+title: Blindfold Characters
+description: This is the Blindfold Characters...
+image: "/ing/bc-cover.jpg"
+---
+<div style="margin: 18px 0;">
+<h1 style="text-align:center;">Blindfold Characters</h1>
+<p style="text-align:center;">This is the Blindfold Characters...</p>
+</div>
+
+    <div class="wrapper">
+
+              {% for oc in site.data.oc %}
+
+<div class="cuad1">
+    <a class="aubrey" href="{{ oc.link }}">
+    <p style="text-align:center;"><img class="pime" alt="{{ oc.name }}" src="{{ oc.pfp }}" width="120" height="120" draggable="false" loading="lazy"></p>
+    <p style="text-align:center;"><span style="font-size:18px;"><strong>{{ oc.name }}</strong></span></p>
+</a>
+</div>
+
+                    {% endfor %}
+   
+  </div>
