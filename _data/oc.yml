@@ -63,9 +63,3 @@
   pfp: "/ing/oc/panecillo.jpg"
   link: "/characters/panecillo/"
   featured: false
-
-- name: Dorian Grey
-  id: -1
-  pfp: "/ing/oc/dorian-grey.jpg"
-  link: "/characters/dorian/"
-  featured: false
